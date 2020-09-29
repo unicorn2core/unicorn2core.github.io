@@ -1,0 +1,49 @@
+/* =====================================
+Template Name: Appmela
+Author Name: Themelamp
+Author URL: http://themelamp.com
+Description: Appmela is a modern & powerfull html5 template for any app landing page showcase.
+Version: 1.0
+========================================*/  
+
+#scrollUp,.app-hero::before,.app-hero h1 .cd-words-wrapper::after,.app-hero.style3 h1 span,.app-hero.style3 .button .btn.icon,.about-app .single-list i,.section-title h2::before,.button .btn,.button .btn.bordered::before,.breadcrumb::before,.banner-title::before,.spinner-wrapper,.header.style2 .nav li a:before,.app-hero.style2 h1 .cd-words-wrapper::after,.countdown.style2,.app-features .app-single-feature i,.video-showcase::before,.video-showcase .video-area a:before,.testimonials .test-nav a.pager-item:hover img,.testimonials .test-nav a.pager-item.active img,.testimonials-slider .bx-wrapper .bx-controls-direction a::before,.app-pricing .price,.app-pricing .price-bottom:before,.tab-features .nav-main .nav-tabs li a:before,.news-blog.archive .pagination li a::before,.news-blog.single .s-share li a:before,.news-blog.single .comments .comment-title:before,.news-blog.single .comments-form h2::before,.news-blog.single .form .form-group::before,.news-blog.single .form .form-group::before,.blog-sidebar .single-sidebar h2::before,.blog-sidebar .post-tab a:before,.download-app::before,.download-app .button .btn i,.contact .form .form-group::before,.contact .form .form-group::before,.footer .newslatter,.contact .form .form-group::before,.contact .form .form-group::before,.contact .contact-info i,.countdown::before{
+	background: #ed6ea0;
+	background: -webkit-linear-gradient(to right, #ed6ea0 30%, #ec8c69 100%);
+	background: linear-gradient(to right, #ed6ea0 30%, #ec8c69 100%);	
+}
+.app-hero.style2 .button .btn i,.header .text-logo a::before,.video-showcase .video-area::after,.footer .text-logo a::before,.header .text-logo a,.demo-option .icon i,.app-hero.style2 h1 .cd-words-wrapper {
+	background: -webkit-linear-gradient(to right, #ed6ea0 30%, #ec8c69 100%);
+	background: linear-gradient(to right, #ed6ea0 30%, #ec8c69 100%);	
+}
+.header.sticky.active {
+	background: linear-gradient(to right, #ed6ea0 30%, #ec8c69 100%);	
+}
+.testimonials .testimonial-text i {
+	background: #ed6ea0;
+	background: -webkit-linear-gradient(to right, #ed6ea0 30%, #ec8c69 100%);
+	background: linear-gradient(to right, #ed6ea0 30%, #ec8c69 100%);	
+}
+.app-pricing .title i{
+	background: #ed6ea0;
+	background: -webkit-linear-gradient(to right, #ed6ea0 30%, #ec8c69 100%);
+	background: linear-gradient(to right, #ed6ea0 30%, #ec8c69 100%);
+}
+.news-blog.single .author-left h4 span.name{
+	background: -webkit-linear-gradient(to right, #ed6ea0 30%, #ec8c69 100%);
+	background: linear-gradient(to right, #ed6ea0 30%, #ec8c69 100%);
+}
+.header .nav li .dropdown li:hover a,.header.style2 .nav li .dropdown li a:hover,.app-hero .play-btn,.header .slicknav_nav a:hover,.header .slicknav_nav a:active,.header.style2.sticky.active .slicknav_nav a:hover,.app-hero .owl-dots .owl-dot.active span,.app-hero .owl-dots .owl-dot:hover span,.header.style3 .social ul li:hover a,.header.style2.sticky.active .slicknav_nav a:active,.news-blog .owl-dots .owl-dot.active span,.news-blog .owl-dots .owl-dot:hover span{
+	background: #ed6ea0;
+}
+.video-showcase .video-area a,.tab-features .features-list li i,.news-blog .blog-inner h4:hover a,.news-blog .meta span a:hover,.news-blog .meta span i,.news-blog.single .prev-next li a,.about-app .single-list:hover h4,.blog-sidebar .post-tab .post-info a:hover,.blog-sidebar .category ul li:hover a,.blog-sidebar .tags ul li:hover a,.contact .contact-info p a:hover,.footer .f-about .social li:hover a,.footer .f-about .social li.active a,.footer .f-link ul li a:hover,.footer .owl-controls .owl-nav div i:hover,.footer .copyright-content p a,.about-app .about-list li i,.app-features .app-single-feature:hover h4,#scrollUp:hover,.app-hero .scroll-down a:hover,.countdown.style2 .single-count:hover i,.footer .single-tweet p a,.app-hero.style2 .button .btn:hover i,.app-features .app-single-feature:hover .bg-number,.header .nav li.active a,.header .nav li:hover a,.footer .single-tweet span,.testimonials .testimonial-text h4 span a,.blog-sidebar .single-sidebar ul li a i,.header.style2 .button .btn:hover,.header.style3.sticky.active .social ul li:hover a{
+	color:#ed6ea0;
+}
+.news-blog.single .blog-info blockquote{
+	border-left-color:#ed6ea0;
+}
+.header .nav .dropdown{
+	border-top-color:#ed6ea0;
+}
+.app-hero .owl-dots .owl-dot span::before,.news-blog .owl-dots .owl-dot span::before {
+	border-color:#ed6ea0;
+}

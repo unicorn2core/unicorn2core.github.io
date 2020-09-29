@@ -1,0 +1,539 @@
+/* Tablet Layout */
+@media (min-width: 768px) and (max-width: 991px) {
+.section{
+	padding:100px 0;
+}
+.section-title {
+	padding: 0 50px;
+	margin-bottom: 30px;
+}
+.breadcrumb {
+	padding: 140px 0 70px;
+}
+.breadcrumb h1 {
+	font-size: 42px;
+}
+.banner-title {
+	padding: 150px 0 80px;
+}
+.banner-title h1 {
+	font-size: 28px;
+	line-height: 42px;
+}
+.header .navbar{
+	margin:0;
+}
+.header .nav li {
+	margin-right: 15px;
+}
+.header .nav .dropdown {
+	width: 160px;
+}
+.header .nav li .dropdown li a {
+	font-size: 13px;
+}
+.header.style2 .nav,.header.style3 .nav{
+	margin:0;
+}
+.header .nav li a i,.header .button,.about-app .app-img,
+.faq-image,.tab-image,.app-hero .app-slider-inner, 
+.app-hero.style2 .image-mockup,.header .download,.header.style3 .social{
+	display:none;
+}
+.app-hero, .app-hero .app-hero-block{
+	height:550px;
+}
+.app-hero .app-hero-content h1 {
+	font-size: 34px;
+	line-height: 44px;
+}	
+.app-hero .app-hero-content p {
+	font-size: 14px;
+}
+.app-hero.style2 .app-hero-content p{
+	padding-right:100px;
+}
+.app-hero.style2 .button .btn {
+	padding: 14px 28px;
+}
+.app-hero.style3 .app-mockup{
+	display:none;
+}
+.app-features .app-single-feature {
+	padding: 30px 10px;
+}
+.app-features .app-single-feature .bg-number {
+	top: 32px;
+	left: -28px;
+	font-size: 50px;
+}
+.app-screenshot .section-title{
+	margin-top:50px;
+}
+.countdown .single-count i {
+	display: inline-block;
+	margin: 0;
+	top: auto;
+}
+.countdown .info {
+	text-align: center;
+	display: block;
+	margin-top: 15px;
+}
+.countdown .info h3 {
+	font-size: 22px;
+}
+.video-showcase {
+	padding: 80px 0;
+}
+.video-showcase::before, 
+.video-showcase::after {
+	-webkit-clip-path: circle(47.5% at 91% 34%);
+	clip-path: circle(47.5% at 93.98% 50.02%);
+}
+.app-screenshot .mobile-mockup img {
+	max-width: 292px;
+}
+.app-pricing .title {
+	font-size: 18px;
+}
+.app-pricing .amount {
+	font-size: 35px;
+}
+.testimonials{
+	padding:0;
+}
+.testimonials .test-nav a.pager-item img {
+	width: 80px;
+	height: 80px;
+}
+.testimonials .test-nav a.pager-item:nth-child(1) {
+	top: 35%;
+}
+.testimonials .test-nav a.pager-item:nth-child(2) {
+	top: 20%;
+}
+.testimonials .test-nav a.pager-item:nth-child(3) {
+	top: 20%;
+	right: 0;
+}
+.testimonials .test-nav a.pager-item:nth-child(4) {
+	bottom: 30%;
+}
+.testimonials .test-nav a.pager-item:nth-child(5) {
+	bottom: 20%;
+}
+.testimonials .test-nav a.pager-item:nth-child(6) {
+	right: 0;
+	top: 50%;
+}
+.tab-features .nav-main .nav-tabs li a {
+	padding: 15px 14px;
+	font-size: 13px;
+}
+.tab-features .nav-main .nav-tabs li a i{
+	display:none;
+}
+.download-app,.contact{
+	overflow:hidden;
+}
+.download-app .text-content h2 {
+	font-size: 22px;
+	line-height: 35px;
+}
+.download-app .section-title h2 {
+	font-size: 24px;
+}
+.download-app .app-mockup {
+	margin-top: 45px;
+}
+.news-blog.single .single-image {
+	margin-bottom: 20px;
+}
+.news-blog.single .image-gallery .col-12:last-child .single-image{
+	margin:0;
+}
+.contact{
+	padding:70px 0 100px;
+}
+.news-blog.archive {
+	padding: 50px 0 100px;
+}
+.brands{
+	padding:50px 0;
+}
+}
+/* Mobile Layout */
+@media only screen and (max-width: 767px) {
+.section{
+	padding:100px 0;
+}
+.section-title {
+	padding: 0;
+	margin-bottom: 30px;
+}
+.section-title .title-bg{
+	font-size: 50px;
+}
+.breadcrumb {
+	padding: 90px 0px 40px;
+}
+.breadcrumb ul {
+	margin-bottom: 5px;
+}
+.breadcrumb h1 {
+	font-size: 25px;
+}
+.banner-title {
+	padding: 100px 0px 50px;
+}
+.banner-title h1 {
+	font-size: 20px;
+	line-height: 30px;
+}
+.news-blog.archive .pagination-main {
+	margin: 48px 0 0;
+}
+.news-blog.archive .pagination-main li {
+	margin-top: 2px;
+}
+.news-blog.archive .pagination-main li a {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+}
+.download-app,.contact{
+	overflow:hidden;
+}
+.news-blog.single .blog-info blockquote {
+	padding: 20px;
+	font-size: 15px;
+}
+.news-blog.single .single-image {
+	margin-bottom: 20px;
+}
+.news-blog.single .image-gallery .col-12:last-child .single-image{
+	margin:0;
+}
+.news-blog.single .share-p-arrow {
+	text-align: center;
+}
+.news-blog.single .s-share {
+	float: none;
+	margin-bottom: 15px;
+}
+.news-blog.single .prev-next {
+	float: none;
+}
+.news-blog.single .author-left {
+	float: none;
+	width: 100%;
+	text-align: left;
+	border: none;
+}
+.news-blog.single .author-left h4 {
+	margin-bottom: 10px;
+}
+.news-blog.single .author-content .button {
+	margin-top: 15px;
+}
+.news-blog.single .single-comment .content {
+	padding-left: 80px;
+}
+.news-blog.single .single-comment.reply {
+	margin-left: 0px;
+}
+.news-blog.single .author-content {
+	float: none;
+	width: 100%;
+}
+.section-title h2 {
+	font-size: 25px;
+}
+.mobile-menu{
+	display:block;
+}
+.header {
+	padding: 10px 0;
+}
+.header .logo {
+	margin: 0;
+}
+.slicknav_menu {
+	background: transparent;
+	padding: 0;
+}
+.header .slicknav_btn {
+	margin: 0;
+	background: #fff;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	margin: -28px 0px 0 0px;
+	border-radius: 0px;
+}
+.header .slicknav_btn:hover{
+	background:#2E303C;
+}
+.header .slicknav_menu .slicknav_icon-bar {
+	background: #2E303C;
+	box-shadow: none;
+	-webkit-transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	transition:all 0.3s ease;
+}
+.header .slicknav_btn:hover .slicknav_icon-bar{
+	background:#fff;
+}
+.header .slicknav_nav {
+	background: #fff;
+	margin-top: 7px;
+	padding: 5px 0;
+	-webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.35);
+	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3);
+}
+.header .slicknav_nav a {
+	text-decoration: none;
+	color: #2E303C;
+	border-radius: none;
+	background: transparent;
+	font-weight: 400;
+}
+.header .slicknav_nav a:hover,
+.header .slicknav_nav a:active{
+	color:#fff;
+}
+.header .slicknav_item:hover a{
+	color:#fff;
+}
+.header .slicknav_nav {
+	background: #fff;
+}
+.header .slicknav_nav li a i{
+	display:none;
+}
+.header .slicknav_nav ul {
+	border-left: 1px solid #ccc;
+}
+.header .slicknav_nav .slicknav_arrow {
+	float: right;
+}
+.header.sticky.active {
+	padding: 10px 0;
+}
+.header.style2.sticky.active .slicknav_btn{
+	background:#fff;
+}
+.header.style2.sticky.active .slicknav_menu .slicknav_icon-bar{
+	background:#2E303C;
+}
+.header.style2.sticky.active .slicknav_nav a:hover,
+.header.style2.sticky.active .slicknav_nav a:active{
+	color:#fff;
+}
+.header.style2.sticky.active .slicknav_item:hover a{
+	color:#fff;
+}
+.header .button,.about-app .app-img,
+.faq-image,.tab-image,.app-slider-inner,
+.main-menu,.testimonials .test-nav,.download-app .app-mockup, 
+.app-hero.style2 .image-mockup{
+	display:none;
+}
+.app-hero .app-hero-content .btn {
+	margin: 0;
+	padding: 10px 16px;
+	font-size: 13px;
+}
+.app-hero .app-hero-content .inline.middle {
+	margin: 0 5px;
+}
+.app-hero .app-hero-content .btn:last-child{
+	margin:0;
+}
+.app-hero.style2{
+	overflow:hidden;
+}
+.app-hero.style2 h1 span{
+	font-size:18px;
+}
+.app-hero.style2 h1 {
+	font-size: 28px;
+	line-height: 38px;
+}
+.app-hero.style3 .button .btn {
+	padding: 12px 20px;
+}
+.app-hero.style3 .button .btn.icon {
+	margin-right: 10px;
+	font-size: 30px;
+}
+.about-app .section-title{
+	padding:0;
+}
+.video-showcase .title-bg {
+	text-align: center;
+}
+.app-screenshot .section-title {
+	margin: 50px 0 0;
+}
+.app-features .app-single-feature .bg-number {
+	top: 32px;
+	left: -29px;
+	font-size: 50px;
+}
+.testimonials .testimonials-slider {
+	padding:0px;
+}
+.tab-features .btn {
+	padding: 14px 25px;
+}
+.app-hero,.app-hero .app-hero-block{
+	height: 500px;
+}
+.app-hero .app-hero-content {
+	margin-top: 67px;
+}
+.app-hero .app-hero-content h1 {
+	font-size: 26px;
+	line-height: 32px;
+}
+.app-hero .owl-dots {
+	bottom: -15px;
+}
+.app-hero.style2 .button .btn {
+	margin-right: 10px;
+	padding: 14px 20px;
+	font-size: 13px;
+}
+.app-hero.style2 .button .btn:last-child{
+	margin:0;
+}
+.countdown .single-count i {
+	display: inline-block;
+	margin: 0;
+	top: auto;
+}
+.countdown .info {
+	text-align: center;
+	display: block;
+	margin-top: 15px;
+}
+.about-app .about-list li {
+	font-size: 13px;
+}
+.about-app .button .btn {
+	margin-right: 15px;
+	padding: 15px 22px;
+	font-size: 13px;
+}
+.news-blog .owl-controls .owl-dots {
+	margin-top: 30px;
+	text-align: center;
+}
+.video-showcase {
+	padding: 80px 0;
+}
+.video-showcase .section-title {
+	padding: 0;
+	text-align: center;
+}
+.video-showcase .section-title h2:before{
+	left:50%;
+	margin-left:-35px;
+}
+.video-showcase .video-area a {
+	width: 74px;
+	height: 74px;
+	line-height: 74px;
+}
+.video-showcase .video-area a::before{
+	width: 74px;
+	height: 74px;
+	line-height: 74px;
+}
+.video-showcase::before, 
+.video-showcase::after {
+	display:none;
+}
+.app-screenshot .mobile-mockup img {
+	max-width: 320px;
+}
+.app-screenshot .slider-image {
+	padding: 8px 30px;
+}
+.app-screenshot .slider-button {
+	margin-top: 70px;
+}
+.testimonials .test-nav a.pager-item {
+	position: relative;
+	top: 0 !important;
+	left: 0 !important;
+	z-index: 299;
+	transition: all 0.3s ease;
+}
+.tab-features .nav-main .nav-tabs li {
+	display: block;
+	margin-bottom:5px;
+}
+.tab-features .nav-main .nav-tabs li:last-child{
+	margin:0;
+}
+.testimonials .test-nav {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+}
+.tab-features .nav-main .nav-tabs li a {
+	padding: 15px 15px;
+	font-size: 13px;
+}
+.download-app .section-title h2 {
+	font-size: 24px;
+}
+.download-app .app-mockup {
+	margin-top: 45px;
+}
+.download-app .text-content h2 {
+	font-size: 17px;
+	line-height: 30px;
+}
+.download-app .button .btn {
+	
+}
+.download-app .button .btn.icon {
+	font-size: 35px;
+}
+.contact{
+	padding:70px 0 100px;
+}
+.brands {
+	padding: 50px 0;
+}
+.news-blog.archive {
+	padding: 30px 0 80px;
+}
+.footer {
+	margin-top: 0px;
+}
+.footer .newslatter{
+	margin-top:80px;
+}	
+.footer .newslatter-content h2 {
+	font-size: 16px;
+	line-height: 22px;
+	margin-bottom: 15px;
+}
+.footer .newslatter-content h2 span {
+	font-size: 14px;
+}
+.footer .newslatter {
+	top: 0;
+	margin-bottom: 0;
+}
+}
+/* Mobile Layout */
+@media (max-width: 420px) {
+}
